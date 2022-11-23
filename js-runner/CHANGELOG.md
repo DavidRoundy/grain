@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.6.0](https://github.com/DavidRoundy/grain/compare/js-runner-v0.5.4...js-runner-v0.6.0) (2022-11-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* **compiler:** Remove decRefIgnoreZeros (#1068)
+* **compiler:** Callee-owned values (#803)
+* Rename JS "runtime" to "js-runner"/"runner" throughout project
+* **compiler:** Rename `grainRuntime` to `_grainEnv`
+* Refactor out references to "runtime" that aren't related to `stdlib/runtime` (#755)
+
+### Features
+
+* **compiler:** Callee-owned values ([#803](https://github.com/DavidRoundy/grain/issues/803)) ([9f8147f](https://github.com/DavidRoundy/grain/commit/9f8147fd380150bf192081e222785987a666d32b))
+
+
+### Bug Fixes
+
+* **js-runner:** Add default object for destructuring ([#833](https://github.com/DavidRoundy/grain/issues/833)) ([099c28f](https://github.com/DavidRoundy/grain/commit/099c28ff0714e85d9ea2451f3c60a9abeada1b45))
+* **js-runner:** Monkeypatch fs_write in browser environment ([#832](https://github.com/DavidRoundy/grain/issues/832)) ([9873c34](https://github.com/DavidRoundy/grain/commit/9873c3491a2aafdc21f6fd1725f4ae673056212f))
+
+
+### Miscellaneous Chores
+
+* **compiler:** Remove decRefIgnoreZeros ([#1068](https://github.com/DavidRoundy/grain/issues/1068)) ([ef60d59](https://github.com/DavidRoundy/grain/commit/ef60d5998fab11eb133407dffe3b13f392b031a2))
+* **compiler:** Rename `grainRuntime` to `_grainEnv` ([1d4c6b8](https://github.com/DavidRoundy/grain/commit/1d4c6b8fcb31a1b8e9901c9eaa11e747aa92ea97))
+* Refactor out references to "runtime" that aren't related to `stdlib/runtime` ([#755](https://github.com/DavidRoundy/grain/issues/755)) ([1d4c6b8](https://github.com/DavidRoundy/grain/commit/1d4c6b8fcb31a1b8e9901c9eaa11e747aa92ea97))
+* Rename JS "runtime" to "js-runner"/"runner" throughout project ([1d4c6b8](https://github.com/DavidRoundy/grain/commit/1d4c6b8fcb31a1b8e9901c9eaa11e747aa92ea97))
+
 ### [0.5.4](https://github.com/grain-lang/grain/compare/js-runner-v0.5.3...js-runner-v0.5.4) (2022-11-12)
 
 
